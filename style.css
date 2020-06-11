@@ -1,0 +1,751 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  border: solid 1px red;
+}
+
+body {
+  background-color: #5f9ea0;
+  margin: 0;
+  padding: 0;
+}
+
+.ab {
+  position: absolute;
+  height: 250px;
+  width: 500px;
+  top: -3%;
+  left: 15%;
+}
+
+.circle {
+  position: relative;
+  top: 80px;
+  left: 100px;
+}
+
+.bgc1 {
+  position: relative;
+  height: 145px;
+  weight: 145px;
+  width: 145px;
+  top: 140px;
+  left: 233px;
+  border-radius: 145px 145px 145px 145px;
+  background: #303960;
+  box-shadow: 20px 25px 20px -10px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.bgc2 {
+  position: relative;
+  height: 145px;
+  weight: 145px;
+  width: 145px;
+  top: -2px;
+  left: 535px;
+  border-radius: 145px 145px 145px 145px;
+  background: #303960;
+  box-shadow: 20px 25px 20px -10px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.bgc1:hover {
+  background: #7ebdb4;
+  transform: translate(-8px, -8px);
+  box-shadow: -20px -25px 20px -10px rgba(0, 0, 0, 0.25);
+}
+
+.bgc2:hover {
+  background: #7ebdb4;
+  transform: translate(-8px, -8px);
+  box-shadow: -20px -25px 20px -10px rgba(0, 0, 0, 0.25);
+}
+
+.milk {
+  position: absolute;
+  top: 250px;
+  left: 600px;
+  ransition: all 2s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.2s;
+  animation-name: MILK;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* 	transform: rotate(-80deg); */
+}
+
+.milk:hover {
+  transform: rotate(-80deg);
+}
+
+@keyframes MILK {
+  0% {
+    left: 200px;
+  }
+  100% {
+    left: 250px;
+  }
+}
+.top1 {
+  position: relative;
+  top: 2px;
+  height: 10px;
+  width: 50px;
+  background: #b2ebf2;
+  border-radius: 2px;
+}
+
+.s1 {
+  position: relative;
+  left: -8px;
+  top: 6px;
+  height: 20px;
+  width: 55px;
+  background: #b2ebf2;
+  transform: skewY(-30deg) rotate(30deg);
+  border-radius: 0px;
+}
+
+.s2 {
+  position: relative;
+  left: -10px;
+  top: 10px;
+  height: 50px;
+  width: 48px;
+  background: #00bcd4;
+}
+
+.milk2 {
+  position: absolute;
+  left: -5px;
+  top: 52px;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.s3 {
+  position: relative;
+  left: -10px;
+  top: -35px;
+  height: 8px;
+  width: 48px;
+  background: #fff8dc;
+}
+
+.s4 {
+  position: relative;
+  left: -10px;
+  top: -15px;
+  height: 8px;
+  width: 48px;
+  background: #fff8dc;
+}
+
+.t1 {
+  position: absolute;
+  left: 42px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  /* 	background:gray; */
+  border-style: solid;
+  border-width: 0 15px 20px 10px;
+  border-color: transparent transparent #3797a4 transparent;
+  transform: rotate(113deg);
+}
+
+.s5 {
+  position: relative;
+  left: 40px;
+  top: -59px;
+  height: 50px;
+  width: 25px;
+  background: #3797a4;
+  transform: skewY(-15deg);
+}
+
+.s6 {
+  position: relative;
+  left: 40px;
+  top: -104px;
+  height: 8px;
+  width: 25px;
+  background: #f9d89c;
+  transform: skewY(-15deg);
+}
+
+.s7 {
+  position: relative;
+  left: 40px;
+  top: -84px;
+  height: 8px;
+  width: 25px;
+  background: #f9d89c;
+  transform: skewY(-15deg);
+}
+
+.something {
+  position: relative;
+  left: -41px;
+  top: -180px;
+  height: 50px;
+  width: 48px;
+  opacity: 0%;
+  transform: rotate(80deg);
+}
+
+.something:hover {
+  opacity: 100%;
+}
+
+.cholo {
+  position: absolute;
+  top: 250px;
+  left: 380px;
+  size: 90%;
+}
+
+.straw {
+  position: absolute;
+  left: 17px;
+  top: 50px;
+  /* 	transform:rotate(45deg); */
+  animation-name: straw;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}
+
+.b1 {
+  position: relative;
+  height: 40px;
+  weight: 10px;
+  top: -80px;
+  width: 5px;
+  border-radius: 1px;
+  background: #a52a2a;
+}
+
+.l1 {
+  position: relative;
+  height: 30px;
+  weight: 10px;
+  top: -130px;
+  left: 11px;
+  width: 5px;
+  border-radius: 3px;
+  background: #d36262;
+  transform: rotate(120deg);
+}
+
+.cholotop1 {
+  position: relative;
+  top: 2px;
+  height: 10px;
+  width: 50px;
+  background: #fff8d7;
+  border-radius: 2px;
+}
+
+.cholos1 {
+  position: relative;
+  left: -8px;
+  top: 6px;
+  height: 20px;
+  width: 55px;
+  background: #e27c19;
+  transform: skewY(-30deg) rotate(30deg);
+  border-radius: 0px;
+}
+
+.choloc1 {
+  position: relative;
+  height: 13px;
+  width: 11px;
+  top: -10px;
+  left: 13px;
+  border-radius: 100px 100px 100px 100px;
+  background: #d2691e;
+}
+
+.cholos2 {
+  position: relative;
+  left: -10px;
+  top: -3px;
+  height: 50px;
+  width: 48px;
+  background: #e27c19;
+}
+
+.cholot1 {
+  position: relative;
+  left: 42px;
+  top: -73px;
+  width: 20px;
+  height: 20px;
+  /* 	background:gray; */
+  border-style: solid;
+  border-width: 0 15px 20px 10px;
+  border-color: transparent transparent #aa5815 transparent;
+  transform: rotate(113deg);
+}
+
+.cholos5 {
+  position: relative;
+  left: 40px;
+  top: -76px;
+  height: 50px;
+  width: 25px;
+  background: #aa5815;
+  transform: skewY(-15deg);
+}
+
+@keyframes straw {
+  0% {
+    top: 50px;
+    transform: rotate(15deg);
+  }
+  50% {
+    top: 70px;
+    transform: rotate(0deg);
+  }
+}
+/* 濃奶茶 */
+.milktea {
+  position: absolute;
+  top: 250px;
+  left: 530px;
+  ransition: all 2s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.2s;
+  animation-name: MILKTEA;
+  animation-duration: 0.13s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.milktea:hover {
+  transform: translateX(20px) rotate(100deg);
+}
+
+@keyframes MILKTEA {
+  0% {
+    top: 240px;
+  }
+  50% {
+    transform: rotatez(10deg);
+  }
+  100% {
+    top: 255px;
+  }
+}
+.milkteatop1 {
+  position: relative;
+  top: 2px;
+  height: 10px;
+  width: 50px;
+  background: oldlace;
+  border-radius: 2px;
+}
+
+.logo2 {
+  position: relative;
+  left: -2px;
+  top: -13px;
+  height: 50px;
+  width: 50px;
+}
+
+.milkteas1 {
+  position: relative;
+  left: -8px;
+  top: 6px;
+  height: 20px;
+  width: 55px;
+  background: #d63447;
+  transform: skewY(-30deg) rotate(30deg);
+  border-radius: 0px;
+}
+
+.logo {
+  position: relative;
+  left: -15px;
+  top: -140px;
+  height: 50px;
+  width: 50px;
+}
+
+.milkteas2 {
+  position: relative;
+  left: -10px;
+  top: -40px;
+  height: 50px;
+  width: 48px;
+  background: #d22a35;
+}
+
+.milkteat1 {
+  position: absolute;
+  left: 42px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  /* 	background:gray; */
+  border-style: solid;
+  border-width: 0 15px 20px 10px;
+  border-color: transparent transparent #b22222 transparent;
+  transform: rotate(113deg);
+}
+
+.milkteas5 {
+  position: relative;
+  left: 40px;
+  top: -93px;
+  height: 50px;
+  width: 25px;
+  background: #b22222;
+  transform: skewY(-15deg);
+}
+
+/*珍奶*/
+.bubbletea {
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  left: 655px;
+  top: 250px;
+}
+
+.tea {
+  position: relative;
+  width: 52px;
+  height: 0;
+  border-top: 60px solid #d8b37c;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  left: 24px;
+  top: -58px;
+  border-radius: 20% 20% 80% 80%;
+  opacity: 100%;
+}
+
+.glass {
+  position: relative;
+  width: 60px;
+  height: 0;
+  border-top: 75px solid #a3a2a2;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+  left: 20px;
+  top: 20px;
+  border-radius: 0% 0% 80% 80%;
+}
+
+.ellipse1 {
+  position: relative;
+  width: 60px;
+  height: 18px;
+  border-radius: 50%;
+  left: 20px;
+  top: -62px;
+  background: #808080;
+  opacity: 90%;
+}
+
+.bubbles {
+  position: relative;
+  top: -90px;
+  ransition: all 2s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.2s;
+  animation-name: BUBBLEs;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes BUBBLEs {
+  0% {
+    transform: translatex(-2px);
+  }
+  100% {
+    transform: translatex(1px);
+  }
+}
+.bubble1 {
+  position: relative;
+  height: 10px;
+  weight: 10px;
+  width: 10px;
+  top: -70px;
+  left: 42px;
+  border-radius: 100px 100px 100px 100px;
+  background: black;
+}
+
+.bubble2 {
+  position: relative;
+  height: 10px;
+  weight: 10px;
+  width: 10px;
+  top: -95px;
+  left: 60px;
+  border-radius: 100px 100px 100px 100px;
+  background: black;
+}
+
+.bubble3 {
+  position: relative;
+  height: 10px;
+  weight: 10px;
+  width: 10px;
+  top: -96px;
+  left: 54px;
+  border-radius: 100px 100px 100px 100px;
+  background: black;
+}
+
+.bubble4 {
+  position: relative;
+  height: 10px;
+  weight: 10px;
+  width: 10px;
+  top: -115px;
+  left: 46px;
+  border-radius: 100px 100px 100px 100px;
+  background: black;
+}
+
+.bubble5 {
+  position: relative;
+  height: 10px;
+  weight: 10px;
+  width: 10px;
+  top: -135px;
+  left: 55px;
+  border-radius: 100px 100px 100px 100px;
+  background: black;
+}
+
+.bubble6 {
+  position: relative;
+  height: 10px;
+  weight: 10px;
+  width: 10px;
+  top: -140px;
+  left: 35px;
+  border-radius: 100px 100px 100px 100px;
+  background: black;
+}
+
+.bubble7 {
+  position: relative;
+  height: 10px;
+  weight: 10px;
+  width: 10px;
+  top: -138px;
+  left: 32px;
+  border-radius: 100px 100px 100px 100px;
+  background: black;
+}
+
+.st1 {
+  position: relative;
+  height: 90px;
+  weight: 10px;
+  top: -155px;
+  left: 50px;
+  width: 5px;
+  border-radius: 1px;
+  background: #a52a2a;
+  ransition: all 2s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0.2s;
+  animation-name: BUBBLE;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.st1:hover {
+  transform: rotate(20deg);
+}
+
+@keyframes BUBBLE {
+  0% {
+    transform: translatex(10px);
+  }
+  100% {
+    transform: translatex(-10px);
+  }
+}
+.word {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  font-family: "Caveat", cursive;
+  font-size: 25px;
+  animation: wordline 3s 8;
+  letter-spacing: 0px;
+}
+
+@keyframes wordline {
+  0% {
+    letter-spacing: 0px;
+  }
+  50% {
+    letter-spacing: 0.2px;
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    letter-spacing: 0px;
+  }
+}
+.middle {
+  position: absolute;
+  top: 82%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  position: relative;
+  display: block;
+  color: black;
+  font-size: 14px;
+  font-family: "Noto Serif TC", serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin: 40px 0;
+  border: 2px solid #ffcb74;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+
+.btn::before {
+  background: #ffcb74;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn1::before {
+  width: 100%;
+  height: 0;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.btn1:hover::before {
+  height: 380%;
+}
+
+.totalline {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  width: 200px;
+  height: 150px;
+}
+
+.linetop {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  width: 40px;
+  height: 5px;
+  background: linear-gradient(to left, #512b58, #5f9ea0);
+  animation: linetop 3s infinite ease-in-out;
+}
+
+@keyframes linetop {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scalex(10.5);
+  }
+}
+.lineleft {
+  position: absolute;
+  left: -32%;
+  top: 20%;
+  width: 5px;
+  height: 5px;
+  background: linear-gradient(to bottom, #512b58, #5f9ea0);
+  animation: lineleft 3s infinite ease-in-out;
+  animation-delay: 2.8s;
+}
+
+@keyframes lineleft {
+  0% {
+    height: 5px;
+  }
+  100% {
+    height: 74px;
+  }
+}
+.lineright {
+  position: absolute;
+  right: -80%;
+  top: 20%;
+  width: 5px;
+  height: 5px;
+  background: linear-gradient(to bottom, #512b58, #5f9ea0);
+  animation: lineright 3s infinite ease-in-out;
+  animation-delay: 2.8s;
+}
+
+@keyframes lineright {
+  0% {
+    height: 5px;
+  }
+  100% {
+    height: 74px;
+  }
+}
+.linebottom1 {
+  position: absolute;
+  left: -30%;
+  bottom: 30%;
+  width: 5px;
+  height: 5px;
+  background: linear-gradient(to left, #512b58, #5f9ea0);
+  animation: linebottom1 3s infinite ease-in-out;
+  animation-delay: 5.8s;
+}
+
+@keyframes linebottom1 {
+  0% {
+    width: 5px;
+  }
+  100% {
+    width: 210px;
+  }
+}
+.linebottom2 {
+  position: absolute;
+  right: -80%;
+  bottom: 30%;
+  width: 5px;
+  height: 5px;
+  background: linear-gradient(to right, #512b58, #5f9ea0);
+  animation: linebottom2 3s infinite ease-in-out;
+  animation-delay: 5.8s;
+}
+
+@keyframes linebottom2 {
+  0% {
+    width: 5px;
+  }
+  100% {
+    width: 210px;
+  }
+}
